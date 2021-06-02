@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Homework1</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <section class="sec1">
+            <h1>THIS IS SIMPLE WEB APPLICATION</h1>
+            <div class="wrapper">
+                <div>
+                    <label for="">Enter first value</label>
+                    <input id="firstVal" type="number" placeholder="first value">
+                </div>
+                <div>
+                    <label for="">Enter second value</label>
+                    <input id="secondVal" type="number" placeholder="second value">
+                </div>
+                <div>
+                    <label for="">Choose math opperation</label>
+                    <button id='plus' type="plus" onclick="sum()">+</button>
+                    <button id='minus' type="minus" onclick="minus()">-</button>
+                    <button id='multiply' type="multiply" onclick="multiply()">*</button>
+                    <button id='division' type="division" onclick="division()">/</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="res">
+            <div>
+                <label for="" class="resultLBL">Result of opperation</label>
+                <p id="resultVal" class="resultBTN">answer will be here :)</p>
+            </div>
+        </section>
+
+        <section class="sec2">
+            <h3>Have any questions? Ask 
+                <a href="http://google.com">
+                    <mark id="m1">G</mark><mark id="m2">o</mark><mark id="m3">o</mark><mark id="m1">g</mark><mark id="m4">l</mark><mark id="m2">e</mark>
+                </a> ;)
+            </h3>
+            <div class="wrapper">
+                <div>
+                    <input id="searchVal" type="text" placeholder="type question here" class="searchLBL">
+                    <button id="searchButton" class="searchBTN">SEARCH</button>
+                </div>
+            </div>
+        </section>
+
+        <h1 id="joke"></h1>
+        
+        <script src="script.js"></script>
+    </body>
+</html>
