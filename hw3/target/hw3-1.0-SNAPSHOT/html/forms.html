@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="../css/forms.css">
+</head>
+<body>  
+    <form action="checkforms" method="POST">
+        <div class="formWrap">
+            <div><h3>FILL THIS FORM, PLEASE:</h3></div>
+            <div>
+                <label for="fname">First name</label>
+                <input type="text" placeholder="John" id="fname" name="fname" required>
+            </div>
+            <div>
+                <label for="lname">Last name</label>
+                <input type="text" placeholder="Dou" id="lname" name="lname" required>
+            </div>
+            <div>
+                <label for="phone">Phone</label>
+                <input type="number" placeholder="XXX-XX-XX" id="phone" name="phone" required>
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input type="text" placeholder="user@gmail.com" id="email" name="email" required>
+            </div>
+            <div class="submit">
+                <input class="submitBTN" type="submit" value="Send form">
+            </div>
+        </div>
+    </form>
+</body>
+</html>
